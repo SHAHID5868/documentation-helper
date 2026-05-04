@@ -109,7 +109,7 @@ async def main():
     )
 
     # Process Dcouments asynchronously
-    await index_documents_async(splitted_docs, batch_size=500)
+    await index_documents_async(splitted_docs, batch_size=300)
 
     log_header("PIPELINE COMPLETE")
     log_success(" Dcoumentation ingestion pipeline finished successfully!")
